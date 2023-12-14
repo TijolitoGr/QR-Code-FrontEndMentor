@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background-color: hsl(220, 100%, 92%);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-family: 'Outfit', Arial;
+    color:hsl(218, 44%, 22%);
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Outfit', Arial;
+    color:hsl(220, 15%, 55%);
+    text-align: center;
+    line-height: 20px;
+}
+
+.square {
+    text-indent: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+    line-height: 200px;
+    height: 490px;
+    width: 325px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    line-height: 20px;
+}
+
+img {
+    border-radius: 15px;
+    width: 295px;
+    height: 295px;
+    display: flex;
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
